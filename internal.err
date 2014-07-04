@@ -1,0 +1,25 @@
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 3 : symbol 'TRISEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 3 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 3 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 8 : symbol 'LATEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 8 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 8 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 13 : symbol 'TRISEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 13 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 13 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 18 : symbol 'LATEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 18 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 18 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 23 : symbol 'TRISEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 23 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 23 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 28 : symbol 'LATEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 28 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 28 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 33 : symbol 'TRISEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 33 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 33 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 38 : symbol 'LATEbits' has not been defined
+Error[1151] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 38 : struct or union object designator expected
+Error[1101] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 38 : lvalue required
+Error[1105] C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\internal.c 43 : symbol 'TRISEbits' has not been defined

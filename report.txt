@@ -1,0 +1,1391 @@
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x0	25	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_entry"	"external"	
+FN_END		0x4	27	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\extended\stdclib\__init.c"
+FN_START	0x6	9	"E:\3.46\pic18-lt\cxx-framework\src\extended\stdclib\__init.c"	"__init"	"external"	
+FN_END		0x6	9	
+FILE		0x0	0	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"
+FN_START	0x8	610	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"JumpToInterruptServiceRoutine"	"external"	
+FN_END		0xc	611	
+FN_START	0x1c	83	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureBipolar1"	"external"	
+FN_END		0x1e	84	
+FN_START	0x20	86	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitRead"	"external"	
+ADJUST		0x20	86	1
+ADJUST		0x24	86	1
+CALL		0x52	87	"E:\3.46\pic18-lt\cxx-framework\src\extended\math\pow2x16.c"	"__pow2x16"	0
+ADJUST		0x66	88	-1
+ADJUST		0x68	88	-1
+FN_END		0x70	88	
+FN_START	0x72	90	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitSet"	"external"	
+ADJUST		0x72	90	1
+ADJUST		0x76	90	1
+CALL		0x92	91	"E:\3.46\pic18-lt\cxx-framework\src\extended\math\pow2x16.c"	"__pow2x16"	0
+ADJUST		0xa8	92	-1
+ADJUST		0xaa	92	-1
+FN_END		0xb2	92	
+FN_START	0xb4	94	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	"external"	
+ADJUST		0xb4	94	1
+ADJUST		0xb8	94	1
+CALL		0xd4	95	"E:\3.46\pic18-lt\cxx-framework\src\extended\math\pow2x16.c"	"__pow2x16"	0
+ADJUST		0xf2	96	-1
+ADJUST		0xf4	96	-1
+FN_END		0xfc	96	
+FN_START	0xfe	98	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetBipolar1"	"external"	
+ADJUST		0xfe	98	1
+ADJUST		0x102	98	1
+ADJUST		0x11a	100	-1
+ADJUST		0x11c	100	-1
+FN_END		0x124	100	
+FN_START	0x126	103	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureBipolar2"	"external"	
+FN_END		0x128	104	
+FN_START	0x12a	106	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetBipolar2"	"external"	
+ADJUST		0x12a	106	1
+ADJUST		0x12e	106	1
+ADJUST		0x146	108	-1
+ADJUST		0x148	108	-1
+FN_END		0x150	108	
+FN_START	0x152	111	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureDirection1"	"external"	
+LABEL	0x152	111	0x152
+FN_END		0x154	112	
+FN_START	0x156	114	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection1"	"external"	
+ADJUST		0x156	114	1
+ADJUST		0x15a	114	1
+ADJUST		0x172	116	-1
+ADJUST		0x174	116	-1
+FN_END		0x17c	116	
+FN_START	0x17e	119	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureDirection2"	"external"	
+LABEL	0x17e	119	0x17e
+FN_END		0x180	120	
+FN_START	0x182	122	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection2"	"external"	
+ADJUST		0x182	122	1
+ADJUST		0x186	122	1
+ADJUST		0x19e	124	-1
+ADJUST		0x1a0	124	-1
+FN_END		0x1a8	124	
+FN_START	0x1aa	127	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureEnable"	"external"	
+FN_END		0x1ac	128	
+FN_START	0x1ae	130	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetEnable"	"external"	
+ADJUST		0x1ae	130	1
+ADJUST		0x1b2	130	1
+ADJUST		0x1ca	132	-1
+ADJUST		0x1cc	132	-1
+FN_END		0x1d4	132	
+FN_START	0x1d6	135	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCCP4"	"external"	
+FN_END		0x1d8	136	
+FN_START	0x1da	139	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCCP5"	"external"	
+FN_END		0x1dc	140	
+FN_START	0x1de	142	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SelectSensor"	"external"	
+ADJUST		0x1de	142	1
+ADJUST		0x1e2	142	1
+CALL		0x258	196	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x260	146	1
+CALL		0x262	146	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x266	146	-1
+ADJUST		0x26c	151	1
+CALL		0x26e	151	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x272	151	-1
+ADJUST		0x278	156	1
+CALL		0x27a	156	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x27e	156	-1
+ADJUST		0x284	161	1
+CALL		0x286	161	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x28a	161	-1
+ADJUST		0x290	166	1
+CALL		0x292	166	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x296	166	-1
+ADJUST		0x29c	171	1
+CALL		0x29e	171	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x2a2	171	-1
+ADJUST		0x2a8	176	1
+CALL		0x2aa	176	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x2ae	176	-1
+ADJUST		0x2b4	181	1
+CALL		0x2b6	181	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x2ba	181	-1
+ADJUST		0x2c0	186	1
+CALL		0x2c2	186	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x2c6	186	-1
+ADJUST		0x2cc	191	1
+CALL		0x2ce	191	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x2d2	191	-1
+ADJUST		0x2d6	200	-1
+ADJUST		0x2d8	200	-1
+FN_END		0x2e0	200	
+FN_START	0x2e2	202	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplySensorModifier"	"external"	
+ADJUST		0x2e2	202	1
+ADJUST		0x2e6	202	1
+ADJUST		0x2f4	202	2
+CALL		0x36a	258	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x372	208	1
+ADJUST		0x374	208	1
+ADJUST		0x376	208	1
+ADJUST		0x378	208	1
+ADJUST		0x37a	208	1
+ADJUST		0x37e	208	1
+CALL		0x382	208	"mul16.O"	"__mul16"	0
+CALL		0x386	208	"mul16.O"	"__mul16"	0
+ADJUST		0x38a	208	-1
+ADJUST		0x38c	208	-1
+ADJUST		0x398	213	1
+ADJUST		0x39a	213	1
+ADJUST		0x39c	213	1
+ADJUST		0x39e	213	1
+ADJUST		0x3a0	213	1
+ADJUST		0x3a4	213	1
+CALL		0x3a8	213	"mul16.O"	"__mul16"	0
+CALL		0x3ac	213	"mul16.O"	"__mul16"	0
+ADJUST		0x3b0	213	-1
+ADJUST		0x3b2	213	-1
+ADJUST		0x3be	218	1
+ADJUST		0x3c0	218	1
+ADJUST		0x3c2	218	1
+ADJUST		0x3c4	218	1
+ADJUST		0x3c6	218	1
+ADJUST		0x3ca	218	1
+CALL		0x3ce	218	"mul16.O"	"__mul16"	0
+CALL		0x3d2	218	"mul16.O"	"__mul16"	0
+ADJUST		0x3d6	218	-1
+ADJUST		0x3d8	218	-1
+ADJUST		0x3e2	223	1
+ADJUST		0x3e4	223	1
+ADJUST		0x3e6	223	1
+ADJUST		0x3ea	223	1
+CALL		0x3ee	223	"mul16.O"	"__mul16"	0
+ADJUST		0x3f2	223	-1
+ADJUST		0x3f4	223	-1
+ADJUST		0x40a	233	1
+ADJUST		0x40c	233	1
+ADJUST		0x40e	233	1
+ADJUST		0x412	233	1
+CALL		0x416	233	"mul16.O"	"__mul16"	0
+ADJUST		0x41a	233	-1
+ADJUST		0x41c	233	-1
+ADJUST		0x428	238	1
+ADJUST		0x42a	238	1
+ADJUST		0x42c	238	1
+ADJUST		0x430	238	1
+CALL		0x434	238	"mul16.O"	"__mul16"	0
+ADJUST		0x438	238	-1
+ADJUST		0x43a	238	-1
+ADJUST		0x446	243	1
+ADJUST		0x448	243	1
+ADJUST		0x44a	243	1
+ADJUST		0x44e	243	1
+CALL		0x452	243	"mul16.O"	"__mul16"	0
+ADJUST		0x456	243	-1
+ADJUST		0x458	243	-1
+ADJUST		0x464	248	1
+ADJUST		0x466	248	1
+ADJUST		0x468	248	1
+ADJUST		0x46a	248	1
+ADJUST		0x46c	248	1
+ADJUST		0x470	248	1
+CALL		0x474	248	"mul16.O"	"__mul16"	0
+CALL		0x478	248	"mul16.O"	"__mul16"	0
+ADJUST		0x47c	248	-1
+ADJUST		0x47e	248	-1
+ADJUST		0x48a	253	1
+ADJUST		0x48c	253	1
+ADJUST		0x48e	253	1
+ADJUST		0x492	253	1
+CALL		0x496	253	"mul16.O"	"__mul16"	0
+ADJUST		0x49a	253	-1
+ADJUST		0x49c	253	-1
+ADJUST		0x4b0	264	-3
+ADJUST		0x4b2	264	-1
+FN_END		0x4ba	264	
+FN_START	0x4bc	266	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SelectK"	"external"	
+ADJUST		0x4bc	266	1
+ADJUST		0x4c0	266	1
+CALL		0x50e	300	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x514	270	1
+CALL		0x516	270	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x51a	270	-1
+ADJUST		0x520	275	1
+CALL		0x522	275	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x526	275	-1
+ADJUST		0x52c	280	1
+CALL		0x52e	280	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x532	280	-1
+ADJUST		0x538	285	1
+CALL		0x53a	285	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x53e	285	-1
+ADJUST		0x544	290	1
+CALL		0x546	290	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x54a	290	-1
+ADJUST		0x54e	295	1
+CALL		0x550	295	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x554	295	-1
+ADJUST		0x558	304	-1
+ADJUST		0x55a	304	-1
+FN_END		0x562	304	
+FN_START	0x564	307	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureGlobalInterrupts"	"external"	
+LABEL	0x564	307	0x564
+FN_END		0x566	308	
+FN_START	0x568	311	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigurePeripheralInterrupts"	"external"	
+FN_END		0x56a	312	
+FN_START	0x56c	316	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureInterruptRB0"	"external"	
+FN_END		0x56e	317	
+FN_START	0x570	320	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureInterruptRB1"	"external"	
+FN_END		0x572	321	
+FN_START	0x574	323	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToEEPROM"	"external"	
+ADJUST		0x574	323	1
+ADJUST		0x578	323	1
+ADJUST		0x586	323	6
+CALL		0x5b8	329	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\busy_eep.c"	"Busy_eep"	0
+ADJUST		0x5be	330	1
+ADJUST		0x5c0	330	1
+ADJUST		0x5c4	330	1
+CALL		0x5c8	330	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c"	"Write_b_eep"	0
+ADJUST		0x5cc	330	-3
+CALL		0x5ce	331	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\busy_eep.c"	"Busy_eep"	0
+ADJUST		0x5d4	332	1
+ADJUST		0x5d6	332	1
+ADJUST		0x5da	332	1
+CALL		0x5de	332	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c"	"Write_b_eep"	0
+ADJUST		0x5e2	332	-3
+ADJUST		0x5e4	333	-7
+ADJUST		0x5e6	333	-1
+FN_END		0x5ee	333	
+FN_START	0x5f0	335	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadFromEEPROM"	"external"	
+ADJUST		0x5f0	335	1
+ADJUST		0x5f4	335	1
+ADJUST		0x602	335	8
+ADJUST		0x616	341	1
+ADJUST		0x61a	341	1
+CALL		0x61e	341	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c"	"Read_b_eep"	0
+ADJUST		0x622	341	-2
+ADJUST		0x626	342	1
+ADJUST		0x62a	342	1
+CALL		0x62e	342	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c"	"Read_b_eep"	0
+ADJUST		0x632	342	-2
+ADJUST		0x654	345	-9
+ADJUST		0x656	345	-1
+FN_END		0x65e	345	
+FN_START	0x660	348	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DebounceValue"	"external"	
+ADJUST		0x660	348	1
+ADJUST		0x664	348	1
+ADJUST		0x672	348	3
+ADJUST		0x6b4	356	1
+CALL		0x6b6	356	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DelayMiliseconds"	0
+ADJUST		0x6ba	356	-1
+ADJUST		0x6ec	359	-4
+ADJUST		0x6ee	359	-1
+FN_END		0x6f6	359	
+FN_START	0x6f8	362	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCalibrationLED"	"external"	
+FN_END		0x6fa	363	
+FN_START	0x6fc	365	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetCalibrationLED"	"external"	
+ADJUST		0x6fc	365	1
+ADJUST		0x700	365	1
+ADJUST		0x724	367	-1
+ADJUST		0x726	367	-1
+FN_END		0x72e	367	
+FN_START	0x730	370	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureRaceLED"	"external"	
+FN_END		0x732	371	
+FN_START	0x734	373	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetRaceLED"	"external"	
+ADJUST		0x734	373	1
+ADJUST		0x738	373	1
+ADJUST		0x75c	375	-1
+ADJUST		0x75e	375	-1
+FN_END		0x766	375	
+FN_START	0x768	378	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReturnTrue"	"external"	
+FN_END		0x76c	379	
+FN_START	0x76e	382	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReturnFalse"	"external"	
+FN_END		0x772	383	
+FN_START	0x774	387	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalculateDutyCycle"	"external"	
+ADJUST		0x774	387	1
+ADJUST		0x778	387	1
+ADJUST		0x786	387	2
+ADJUST		0x794	391	1
+ADJUST		0x796	391	1
+ADJUST		0x798	391	1
+ADJUST		0x79c	391	1
+CALL		0x7a0	391	"mul16.O"	"__mul16"	0
+ADJUST		0x7a4	391	-1
+ADJUST		0x7a6	391	-1
+ADJUST		0x7da	398	-3
+ADJUST		0x7dc	398	-1
+FN_END		0x7e4	398	
+FN_START	0x7e6	412	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	"external"	
+ADJUST		0x7e6	412	1
+ADJUST		0x7ea	412	1
+ADJUST		0x7f8	412	2
+ADJUST		0x7fa	419	1
+ADJUST		0x7fe	419	1
+CALL		0x802	419	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalculateDutyCycle"	0
+ADJUST		0x804	419	-2
+CALL		0x836	444	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x83a	423	1
+ADJUST		0x83e	423	1
+CALL		0x842	423	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4setdc.c"	"SetDCPWM4"	0
+ADJUST		0x846	423	-2
+ADJUST		0x85e	424	1
+ADJUST		0x862	424	1
+CALL		0x866	424	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection1"	0
+ADJUST		0x868	424	-2
+ADJUST		0x86c	429	1
+ADJUST		0x870	429	1
+CALL		0x874	429	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5setdc.c"	"SetDCPWM5"	0
+ADJUST		0x878	429	-2
+ADJUST		0x890	430	1
+ADJUST		0x894	430	1
+CALL		0x898	430	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection2"	0
+ADJUST		0x89a	430	-2
+ADJUST		0x89e	435	1
+ADJUST		0x8a2	435	1
+CALL		0x8a6	435	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4setdc.c"	"SetDCPWM4"	0
+ADJUST		0x8aa	435	-2
+ADJUST		0x8c2	436	1
+ADJUST		0x8c6	436	1
+CALL		0x8ca	436	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection1"	0
+ADJUST		0x8cc	436	-2
+ADJUST		0x8ce	438	1
+ADJUST		0x8d2	438	1
+CALL		0x8d6	438	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5setdc.c"	"SetDCPWM5"	0
+ADJUST		0x8da	438	-2
+ADJUST		0x8f2	439	1
+ADJUST		0x8f6	439	1
+CALL		0x8fa	439	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetDirection2"	0
+ADJUST		0x8fc	439	-2
+ADJUST		0x900	450	-3
+ADJUST		0x902	450	-1
+FN_END		0x90a	450	
+FN_START	0x90c	452	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadCurrent"	"external"	
+ADJUST		0x90c	452	1
+ADJUST		0x910	452	1
+ADJUST		0x91e	452	4
+CALL		0x93e	474	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x944	458	1
+CALL		0x946	458	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x94a	458	-1
+CALL		0x94c	459	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x958	460	1
+CALL		0x95a	460	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x95e	460	-1
+CALL		0x960	461	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x96e	466	1
+CALL		0x970	466	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x974	466	-1
+CALL		0x976	467	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x982	468	1
+CALL		0x984	468	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x988	468	-1
+CALL		0x98a	469	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x9ae	480	-5
+ADJUST		0x9b0	480	-1
+FN_END		0x9b8	480	
+FN_START	0x9ba	483	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ProfilerReset"	"external"	
+LABEL	0x9ba	483	0x9ba
+ADJUST		0x9bc	483	1
+ADJUST		0x9be	483	1
+CALL		0x9c0	483	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c"	"WriteTimer0"	0
+ADJUST		0x9c4	483	-2
+FN_END		0x9c6	484	
+FN_START	0x9c8	487	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ProfilerStart"	"external"	
+ADJUST		0x9ca	487	1
+CALL		0x9cc	487	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c"	"OpenTimer0"	0
+ADJUST		0x9d0	487	-1
+BRANCH	0x9d4	489	0x9ba
+FN_END		0x9d6	489	
+FN_START	0x9d8	493	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ProfilerRead"	"external"	
+CALL		0x9d8	493	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0read.c"	"ReadTimer0"	0
+FN_END		0x9ee	495	
+FN_START	0x9f0	498	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ProfilerStop"	"external"	
+BRANCH	0x9f0	498	0x29f8
+FN_END		0x9f2	498	
+FN_START	0x9f4	504	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupPWM"	"external"	
+ADJUST		0x9f6	504	1
+CALL		0x9f8	504	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c"	"OpenTimer2"	0
+ADJUST		0x9fc	504	-1
+CALL		0x9fe	506	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCCP4"	0
+CALL		0xa02	507	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCCP5"	0
+ADJUST		0xa06	508	1
+CALL		0xa08	508	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4open.c"	"OpenPWM4"	0
+ADJUST		0xa0c	508	-1
+ADJUST		0xa0e	509	1
+CALL		0xa10	509	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5open.c"	"OpenPWM5"	0
+ADJUST		0xa14	509	-1
+ADJUST		0xa18	511	1
+ADJUST		0xa1c	511	1
+ADJUST		0xa1e	511	1
+CALL		0xa20	511	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0xa22	511	-3
+FN_END		0xa24	512	
+FN_START	0xa26	515	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupEnable"	"external"	
+CALL		0xa26	515	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureEnable"	0
+ADJUST		0xa2c	516	1
+ADJUST		0xa2e	516	1
+CALL		0xa30	516	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetEnable"	0
+ADJUST		0xa34	516	-2
+FN_END		0xa36	517	
+FN_START	0xa38	520	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupRightMotor"	"external"	
+CALL		0xa38	520	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureBipolar1"	0
+ADJUST		0xa3e	521	1
+ADJUST		0xa40	521	1
+CALL		0xa42	521	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetBipolar1"	0
+ADJUST		0xa46	521	-2
+BRANCH	0xa48	522	0x152
+FN_END		0xa4a	522	
+FN_START	0xa4c	526	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupLeftMotor"	"external"	
+CALL		0xa4c	526	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureBipolar2"	0
+ADJUST		0xa52	527	1
+ADJUST		0xa54	527	1
+CALL		0xa56	527	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetBipolar2"	0
+ADJUST		0xa5a	527	-2
+BRANCH	0xa5c	528	0x17e
+FN_END		0xa5e	528	
+FN_START	0xa60	538	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupSensors"	"external"	
+LABEL	0xa60	538	0xa60
+ADJUST		0xa60	538	1
+ADJUST		0xa64	537	1
+ADJUST		0xa68	534	1
+CALL		0xa6a	538	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c"	"OpenADC"	0
+ADJUST		0xa6e	538	-3
+FN_END		0xa70	539	
+FN_START	0xa72	550	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupIOBoard"	"external"	
+ADJUST		0xa74	550	1
+ADJUST		0xa78	549	1
+ADJUST		0xa7c	545	1
+CALL		0xa7e	550	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c"	"OpenADC"	0
+ADJUST		0xa82	550	-3
+FN_END		0xa86	554	
+FN_START	0xa88	562	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"InterruptServiceRoutine"	"external"	
+ADJUST		0xac8	562	14
+ADJUST		0xaca	562	1
+ADJUST		0xace	562	1
+ADJUST		0xadc	562	1
+ADJUST		0xaf4	567	1
+ADJUST		0xaf8	567	1
+CALL		0xafa	567	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DebounceValue"	0
+ADJUST		0xafc	567	-2
+ADJUST		0xb2c	571	1
+CALL		0xb30	571	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetCalibrationLED"	0
+ADJUST		0xb32	571	-1
+ADJUST		0xb48	580	1
+ADJUST		0xb4c	580	1
+CALL		0xb4e	580	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DebounceValue"	0
+ADJUST		0xb50	580	-2
+ADJUST		0xb80	582	1
+CALL		0xb84	582	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetRaceLED"	0
+ADJUST		0xb86	582	-1
+ADJUST		0xba4	592	1
+ADJUST		0xba8	592	1
+ADJUST		0xbaa	592	1
+CALL		0xbac	592	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0xbae	592	-3
+ADJUST		0xbbc	595	1
+CALL		0xbc0	595	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetCalibrationLED"	0
+ADJUST		0xbc2	595	-1
+ADJUST		0xbe0	596	1
+CALL		0xbe4	596	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetRaceLED"	0
+ADJUST		0xbe6	596	-1
+CALL		0xbe8	598	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DelayHalfSecond"	0
+ADJUST		0xc0e	605	-2
+ADJUST		0xc10	605	-1
+ADJUST		0xc56	605	-14
+FN_END		0xc5a	605	
+FN_START	0xc5c	618	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	"external"	
+FN_END		0xc5c	618	
+FN_START	0xc5e	621	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupButtons"	"external"	
+CALL		0xc5e	621	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureInterruptRB0"	0
+CALL		0xc60	622	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureInterruptRB1"	0
+CALL		0xc62	623	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigurePeripheralInterrupts"	0
+BRANCH	0xc64	624	0x564
+FN_END		0xc66	624	
+FN_START	0xc68	628	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupControlLEDs"	"external"	
+CALL		0xc68	628	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureCalibrationLED"	0
+ADJUST		0xc6a	629	1
+CALL		0xc6c	629	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetCalibrationLED"	0
+ADJUST		0xc6e	629	-1
+CALL		0xc70	631	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ConfigureRaceLED"	0
+ADJUST		0xc72	632	1
+CALL		0xc74	632	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetRaceLED"	0
+ADJUST		0xc76	632	-1
+FN_END		0xc78	633	
+FN_START	0xc7a	636	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Setup"	"external"	
+CALL		0xc7a	636	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupPWM"	0
+CALL		0xc7c	637	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupRightMotor"	0
+CALL		0xc7e	638	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupLeftMotor"	0
+CALL		0xc80	639	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupEnable"	0
+CALL		0xc82	640	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupControlLEDs"	0
+CALL		0xc84	643	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupButtons"	0
+BRANCH	0xc86	644	0xa60
+FN_END		0xc88	644	
+FN_START	0xc8a	648	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	"external"	
+ADJUST		0xc8a	648	1
+ADJUST		0xc8e	648	1
+ADJUST		0xc9c	648	2
+CALL		0xc9e	650	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c"	"ConvertADC"	0
+CALL		0xca2	651	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c"	"BusyADC"	0
+CALL		0xcac	652	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c"	"ReadADC"	0
+ADJUST		0xcc2	654	-3
+ADJUST		0xcc4	654	-1
+FN_END		0xccc	654	
+FN_START	0xcce	656	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadSensors"	"external"	
+ADJUST		0xcce	656	1
+ADJUST		0xcd2	656	1
+ADJUST		0xce0	656	9
+ADJUST		0xd38	665	1
+CALL		0xd3a	665	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SelectSensor"	0
+ADJUST		0xd3e	665	-1
+CALL		0xd40	666	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0xd96	678	1
+ADJUST		0xd9a	678	1
+ADJUST		0xd9e	678	1
+ADJUST		0xda0	678	1
+ADJUST		0xda2	678	1
+ADJUST		0xda6	678	1
+ADJUST		0xda8	678	1
+ADJUST		0xdaa	678	1
+ADJUST		0xdac	678	1
+ADJUST		0xdb0	678	1
+ADJUST		0xdb4	678	1
+ADJUST		0xdb6	678	1
+CALL		0xdb8	678	"mul32.O"	"__mul32"	0
+CALL		0xdbc	678	"div32s.O"	"__div32s"	0
+ADJUST		0xdc0	678	-1
+ADJUST		0xdc2	678	-1
+ADJUST		0xdc6	678	-1
+ADJUST		0xdca	678	-1
+ADJUST		0xe0a	686	-10
+ADJUST		0xe0c	686	-1
+FN_END		0xe14	686	
+FN_START	0xe16	688	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalculateError"	"external"	
+ADJUST		0xe16	688	1
+ADJUST		0xe1a	688	1
+ADJUST		0xe28	688	5
+ADJUST		0xe58	694	1
+ADJUST		0xe5c	694	1
+ADJUST		0xe62	694	1
+CALL		0xe64	694	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplySensorModifier"	0
+ADJUST		0xe68	694	-3
+ADJUST		0xe88	701	-6
+ADJUST		0xe8a	701	-1
+FN_END		0xe92	701	
+FN_START	0xe94	703	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplyKModifiers"	"external"	
+ADJUST		0xe94	703	1
+ADJUST		0xe98	703	1
+CALL		0xed8	734	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0xf42	738	-1
+ADJUST		0xf44	738	-1
+FN_END		0xf4c	738	
+FN_START	0xf4e	740	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GetKModifier"	"external"	
+ADJUST		0xf4e	740	1
+ADJUST		0xf52	740	1
+ADJUST		0xf60	740	3
+CALL		0xfa8	769	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"RanInErrorState"	0
+ADJUST		0x101a	777	-4
+ADJUST		0x101c	777	-1
+FN_END		0x1024	777	
+FN_START	0x1026	779	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteK"	"external"	
+ADJUST		0x1026	779	1
+ADJUST		0x102a	779	1
+ADJUST		0x1044	780	1
+ADJUST		0x1048	780	1
+ADJUST		0x104c	780	1
+ADJUST		0x1050	780	1
+CALL		0x1054	780	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToEEPROM"	0
+ADJUST		0x1058	780	-4
+ADJUST		0x105a	781	-1
+ADJUST		0x105c	781	-1
+FN_END		0x1064	781	
+FN_START	0x1066	783	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteArray"	"external"	
+ADJUST		0x1066	783	1
+ADJUST		0x106a	783	1
+ADJUST		0x1078	783	2
+ADJUST		0x1090	787	1
+ADJUST		0x1092	787	1
+ADJUST		0x1094	787	1
+ADJUST		0x1098	787	1
+CALL		0x109c	787	"mul16.O"	"__mul16"	0
+ADJUST		0x10a4	787	1
+ADJUST		0x10aa	787	-1
+ADJUST		0x10ac	787	-1
+ADJUST		0x10b2	787	1
+ADJUST		0x10b6	787	1
+ADJUST		0x10bc	787	1
+ADJUST		0x10be	787	1
+ADJUST		0x10c0	787	1
+ADJUST		0x10c4	787	1
+CALL		0x10c8	787	"mul16.O"	"__mul16"	0
+ADJUST		0x10ce	787	1
+ADJUST		0x10d4	787	-1
+ADJUST		0x10d6	787	-1
+ADJUST		0x10dc	787	1
+ADJUST		0x10e0	787	1
+CALL		0x10e4	787	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToEEPROM"	0
+ADJUST		0x10e8	787	-4
+ADJUST		0x10f2	789	-3
+ADJUST		0x10f4	789	-1
+FN_END		0x10fc	789	
+FN_START	0x10fe	791	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadArray"	"external"	
+ADJUST		0x10fe	791	1
+ADJUST		0x1102	791	1
+ADJUST		0x1110	791	22
+ADJUST		0x1128	796	1
+ADJUST		0x112a	796	1
+ADJUST		0x112c	796	1
+ADJUST		0x1130	796	1
+CALL		0x1134	796	"mul16.O"	"__mul16"	0
+ADJUST		0x113c	796	1
+ADJUST		0x1142	796	-1
+ADJUST		0x1144	796	-1
+ADJUST		0x114a	796	1
+ADJUST		0x114e	796	1
+CALL		0x1152	796	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadFromEEPROM"	0
+ADJUST		0x1156	796	-2
+ADJUST		0x11b0	800	-23
+ADJUST		0x11b2	800	-1
+FN_END		0x11ba	800	
+FN_START	0x11bc	814	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	"external"	
+ADJUST		0x11bc	814	1
+ADJUST		0x11c0	814	1
+ADJUST		0x11ce	814	2
+ADJUST		0x11f2	817	1
+ADJUST		0x11f6	817	1
+CALL		0x11fa	817	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadFromEEPROM"	0
+ADJUST		0x11fe	817	-2
+ADJUST		0x1216	819	1
+CALL		0x121a	819	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SelectK"	0
+ADJUST		0x121e	819	-1
+CALL		0x1220	820	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x1280	832	-3
+ADJUST		0x1282	832	-1
+FN_END		0x128a	832	
+FN_START	0x128c	859	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKpnTimes10Pressed"	"external"	
+FN_END		0x12aa	860	
+FN_START	0x12ac	863	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKinTimes10Pressed"	"external"	
+FN_END		0x12ce	864	
+FN_START	0x12d0	867	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKdnTimes10Pressed"	"external"	
+FN_END		0x12f2	868	
+FN_START	0x12f4	871	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKpnOver10Pressed"	"external"	
+FN_END		0x1316	872	
+FN_START	0x1318	875	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKinOver10Pressed"	"external"	
+FN_END		0x133a	876	
+FN_START	0x133c	879	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsKdnOver10Pressed"	"external"	
+FN_END		0x135e	880	
+FN_START	0x1360	883	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsCalibrateButtonPressed"	"external"	
+FN_END		0x1366	884	
+FN_START	0x1368	887	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsRaceButtonPressed"	"external"	
+FN_END		0x1372	888	
+FN_START	0x1374	892	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DelayMiliseconds"	"external"	
+ADJUST		0x1374	892	1
+ADJUST		0x1378	892	1
+ADJUST		0x1392	893	1
+CALL		0x1396	893	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x139a	893	-1
+ADJUST		0x139c	894	-1
+ADJUST		0x139e	894	-1
+FN_END		0x13a6	894	
+FN_START	0x13a8	897	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DelayQuarterSecond"	"external"	
+ADJUST		0x13aa	897	1
+CALL		0x13ac	897	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13b0	897	-1
+FN_END		0x13b2	898	
+FN_START	0x13b4	901	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DelayHalfSecond"	"external"	
+ADJUST		0x13b6	901	1
+CALL		0x13b8	901	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13bc	901	-1
+ADJUST		0x13c0	902	1
+CALL		0x13c2	902	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13c6	902	-1
+FN_END		0x13c8	903	
+FN_START	0x13ca	906	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	"external"	
+LABEL	0x13ca	906	0x13ca
+LABEL	0x13ca	906	0x13ca
+ADJUST		0x13cc	906	1
+CALL		0x13ce	906	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13d2	906	-1
+ADJUST		0x13d6	907	1
+CALL		0x13d8	907	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13dc	907	-1
+ADJUST		0x13e0	908	1
+CALL		0x13e2	908	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13e6	908	-1
+ADJUST		0x13ea	909	1
+CALL		0x13ec	909	"d10ktcyx.O"	"Delay10KTCYx"	0
+ADJUST		0x13f0	909	-1
+FN_END		0x13f2	910	
+FN_START	0x13f4	913	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay2Second"	"external"	
+CALL		0x13f4	913	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+BRANCH	0x13f6	914	0x13ca
+FN_END		0x13f8	914	
+FN_START	0x13fa	918	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay3Second"	"external"	
+LABEL	0x13fa	918	0x13fa
+CALL		0x13fa	918	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+CALL		0x13fc	919	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+BRANCH	0x13fe	920	0x13ca
+FN_END		0x1400	920	
+FN_START	0x1402	924	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay9Second"	"external"	
+CALL		0x1402	924	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay3Second"	0
+CALL		0x1404	925	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay3Second"	0
+BRANCH	0x1406	926	0x13fa
+FN_END		0x1408	926	
+FN_START	0x140a	933	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadPot"	"external"	
+ADJUST		0x140a	933	1
+ADJUST		0x140e	933	1
+ADJUST		0x141c	933	2
+ADJUST		0x1420	935	1
+CALL		0x1422	935	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	0
+ADJUST		0x1426	935	-1
+CALL		0x1428	936	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadAdcChannel"	0
+ADJUST		0x143c	938	-3
+ADJUST		0x143e	938	-1
+FN_END		0x1446	938	
+FN_START	0x1448	940	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadPotScaled"	"external"	
+ADJUST		0x1448	940	1
+ADJUST		0x144c	940	1
+ADJUST		0x145a	940	2
+CALL		0x145c	941	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadPot"	0
+ADJUST		0x1484	945	-3
+ADJUST		0x1486	945	-1
+FN_END		0x148e	945	
+FN_START	0x1490	948	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsPb1Pressed"	"external"	
+FN_END		0x14b8	949	
+FN_START	0x14ba	952	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsPb2Pressed"	"external"	
+FN_END		0x14de	953	
+FN_START	0x14e0	955	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToLeds"	"external"	
+ADJUST		0x14e0	955	1
+ADJUST		0x14e4	955	1
+ADJUST		0x1502	957	-1
+ADJUST		0x1504	957	-1
+FN_END		0x150c	957	
+FN_START	0x150e	961	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GoStraightAdjustment"	"external"	
+ADJUST		0x150e	961	1
+ADJUST		0x1512	961	1
+ADJUST		0x1520	961	6
+CALL		0x1522	962	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupPWM"	0
+CALL		0x1526	963	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupRightMotor"	0
+CALL		0x152a	964	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupLeftMotor"	0
+CALL		0x152e	965	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupEnable"	0
+CALL		0x1532	966	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupIOBoard"	0
+CALL		0x1536	969	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadPotScaled"	0
+ADJUST		0x154a	971	1
+ADJUST		0x154c	971	1
+ADJUST		0x154e	971	1
+ADJUST		0x1552	971	1
+CALL		0x1556	971	"div16s.O"	"__div16s"	0
+ADJUST		0x155c	971	1
+ADJUST		0x1562	971	-1
+ADJUST		0x1566	971	-1
+ADJUST		0x156c	973	1
+ADJUST		0x156e	973	1
+ADJUST		0x1570	973	1
+ADJUST		0x1574	973	1
+CALL		0x1578	973	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToEEPROM"	0
+ADJUST		0x157c	973	-4
+ADJUST		0x157e	975	1
+ADJUST		0x1580	975	1
+ADJUST		0x1584	975	1
+CALL		0x1588	975	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x158c	975	-3
+ADJUST		0x1590	976	1
+ADJUST		0x1592	976	1
+ADJUST		0x1596	976	1
+CALL		0x159a	976	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x159e	976	-3
+ADJUST		0x15a2	978	-7
+ADJUST		0x15a4	978	-1
+FN_END		0x15ac	978	
+FN_START	0x15ae	980	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GoStraight"	"external"	
+ADJUST		0x15ae	980	1
+ADJUST		0x15b2	980	1
+ADJUST		0x15c0	980	6
+ADJUST		0x15c4	981	1
+ADJUST		0x15c6	981	1
+CALL		0x15c8	981	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadFromEEPROM"	0
+ADJUST		0x15cc	981	-2
+CALL		0x15d6	982	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Setup"	0
+ADJUST		0x15e2	986	1
+ADJUST		0x15e4	986	1
+ADJUST		0x15e6	986	1
+ADJUST		0x15ea	986	1
+CALL		0x15ee	986	"div16s.O"	"__div16s"	0
+ADJUST		0x15f4	986	1
+ADJUST		0x15fa	986	-1
+ADJUST		0x15fe	986	-1
+ADJUST		0x1602	988	1
+ADJUST		0x1604	988	1
+ADJUST		0x1608	988	1
+CALL		0x160c	988	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1610	988	-3
+ADJUST		0x1614	989	1
+ADJUST		0x1616	989	1
+ADJUST		0x161a	989	1
+CALL		0x161e	989	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1622	989	-3
+ADJUST		0x1626	991	-7
+ADJUST		0x1628	991	-1
+FN_END		0x1630	991	
+FN_START	0x1632	993	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"DoEightLoop"	"external"	
+ADJUST		0x1632	993	1
+ADJUST		0x1636	993	1
+ADJUST		0x1644	993	6
+ADJUST		0x1648	994	1
+ADJUST		0x164a	994	1
+CALL		0x164c	994	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadFromEEPROM"	0
+ADJUST		0x1650	994	-2
+ADJUST		0x1664	996	1
+ADJUST		0x1666	996	1
+ADJUST		0x1668	996	1
+ADJUST		0x166c	996	1
+CALL		0x1670	996	"div16s.O"	"__div16s"	0
+ADJUST		0x1676	996	1
+ADJUST		0x167c	996	-1
+ADJUST		0x1680	996	-1
+CALL		0x1684	997	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Setup"	0
+ADJUST		0x168a	1000	1
+ADJUST		0x168e	1000	1
+ADJUST		0x1690	1000	1
+CALL		0x1692	1000	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1696	1000	-3
+CALL		0x1698	1001	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+ADJUST		0x169a	1003	1
+ADJUST		0x169c	1003	1
+ADJUST		0x16a0	1003	1
+CALL		0x16a4	1003	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x16a8	1003	-3
+ADJUST		0x16ac	1004	1
+ADJUST		0x16ae	1004	1
+ADJUST		0x16b2	1004	1
+CALL		0x16b6	1004	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x16ba	1004	-3
+CALL		0x16bc	1005	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+ADJUST		0x16be	1007	1
+ADJUST		0x16c2	1007	1
+ADJUST		0x16c4	1007	1
+CALL		0x16c6	1007	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x16ca	1007	-3
+ADJUST		0x16ce	1008	1
+ADJUST		0x16d0	1008	1
+ADJUST		0x16d4	1008	1
+CALL		0x16d8	1008	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x16dc	1008	-3
+CALL		0x16de	1009	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay2Second"	0
+ADJUST		0x16e0	1011	1
+ADJUST		0x16e2	1011	1
+ADJUST		0x16e6	1011	1
+CALL		0x16ea	1011	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x16ee	1011	-3
+ADJUST		0x16f2	1012	1
+ADJUST		0x16f4	1012	1
+ADJUST		0x16f8	1012	1
+CALL		0x16fc	1012	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1700	1012	-3
+CALL		0x1702	1013	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+ADJUST		0x1704	1015	1
+ADJUST		0x1706	1015	1
+ADJUST		0x170a	1015	1
+CALL		0x170e	1015	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1712	1015	-3
+ADJUST		0x1716	1016	1
+ADJUST		0x171a	1016	1
+ADJUST		0x171c	1016	1
+CALL		0x171e	1016	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1722	1016	-3
+CALL		0x1724	1017	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay2Second"	0
+ADJUST		0x1726	1019	1
+ADJUST		0x1728	1019	1
+ADJUST		0x172c	1019	1
+CALL		0x1730	1019	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1734	1019	-3
+ADJUST		0x1738	1020	1
+ADJUST		0x173a	1020	1
+ADJUST		0x173e	1020	1
+CALL		0x1742	1020	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1746	1020	-3
+CALL		0x1748	1021	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Delay1Second"	0
+ADJUST		0x174c	1023	-7
+ADJUST		0x174e	1023	-1
+FN_END		0x1756	1023	
+FN_START	0x1758	1025	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"TechDemo1"	"external"	
+ADJUST		0x1758	1025	1
+ADJUST		0x175c	1025	1
+ADJUST		0x176a	1025	6
+CALL		0x176c	1026	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupPWM"	0
+CALL		0x1770	1027	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupRightMotor"	0
+CALL		0x1774	1028	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupLeftMotor"	0
+CALL		0x1778	1029	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupEnable"	0
+CALL		0x177c	1030	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"SetupIOBoard"	0
+CALL		0x1780	1033	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsPb1Pressed"	0
+CALL		0x178a	1034	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsPb2Pressed"	0
+CALL		0x1794	1035	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadPotScaled"	0
+ADJUST		0x17bc	1039	1
+ADJUST		0x17be	1039	1
+ADJUST		0x17c2	1039	1
+CALL		0x17c6	1039	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x17ca	1039	-3
+ADJUST		0x17ce	1040	1
+ADJUST		0x17d2	1040	1
+ADJUST		0x17d4	1040	1
+CALL		0x17d6	1040	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x17da	1040	-3
+ADJUST		0x17de	1041	1
+CALL		0x17e0	1041	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToLeds"	0
+ADJUST		0x17e2	1041	-1
+ADJUST		0x1802	1044	1
+ADJUST		0x1806	1044	1
+ADJUST		0x1808	1044	1
+CALL		0x180a	1044	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x180e	1044	-3
+ADJUST		0x1812	1045	1
+ADJUST		0x1814	1045	1
+ADJUST		0x1818	1045	1
+CALL		0x181c	1045	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1820	1045	-3
+ADJUST		0x1824	1046	1
+CALL		0x1826	1046	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToLeds"	0
+ADJUST		0x1828	1046	-1
+ADJUST		0x1848	1049	1
+ADJUST		0x184a	1049	1
+ADJUST		0x184e	1049	1
+CALL		0x1852	1049	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1856	1049	-3
+ADJUST		0x185a	1050	1
+ADJUST		0x185c	1050	1
+ADJUST		0x185e	1050	1
+ADJUST		0x1860	1050	1
+ADJUST		0x1864	1050	1
+CALL		0x1868	1050	"mul16.O"	"__mul16"	0
+CALL		0x186c	1050	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1870	1050	-3
+ADJUST		0x1872	1051	1
+CALL		0x1874	1051	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToLeds"	0
+ADJUST		0x1876	1051	-1
+ADJUST		0x187a	1054	1
+ADJUST		0x187c	1054	1
+ADJUST		0x1880	1054	1
+CALL		0x1884	1054	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1888	1054	-3
+ADJUST		0x188c	1055	1
+ADJUST		0x188e	1055	1
+ADJUST		0x1892	1055	1
+CALL		0x1896	1055	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x189a	1055	-3
+ADJUST		0x189c	1056	1
+CALL		0x189e	1056	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"WriteToLeds"	0
+ADJUST		0x18a0	1056	-1
+ADJUST		0x18a4	1059	-7
+ADJUST		0x18a6	1059	-1
+FN_END		0x18ae	1059	
+FN_START	0x18b0	1061	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"TechDemo2"	"external"	
+ADJUST		0x18b0	1061	1
+ADJUST		0x18b4	1061	1
+ADJUST		0x18c2	1061	28
+CALL		0x18ce	1078	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Setup"	0
+ADJUST		0x18d2	1080	1
+ADJUST		0x18d4	1080	1
+ADJUST		0x18d8	1080	1
+CALL		0x18da	1080	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x18de	1080	-3
+ADJUST		0x18e2	1081	1
+ADJUST		0x18e4	1081	1
+ADJUST		0x18e8	1081	1
+CALL		0x18ea	1081	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x18ee	1081	-3
+ADJUST		0x18f0	1084	1
+ADJUST		0x18f6	1084	1
+ADJUST		0x18fc	1084	1
+CALL		0x18fe	1084	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadSensors"	0
+ADJUST		0x1902	1084	-3
+ADJUST		0x196e	1088	1
+ADJUST		0x1974	1088	1
+ADJUST		0x1978	1088	1
+CALL		0x197a	1088	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitSet"	0
+ADJUST		0x197e	1088	-3
+ADJUST		0x1990	1091	1
+ADJUST		0x1996	1091	1
+ADJUST		0x199a	1091	1
+CALL		0x199c	1091	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	0
+ADJUST		0x19a0	1091	-3
+ADJUST		0x1a18	1100	1
+ADJUST		0x1a1e	1100	1
+ADJUST		0x1a22	1100	1
+CALL		0x1a24	1100	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	0
+ADJUST		0x1a28	1100	-3
+ADJUST		0x1a2e	1104	1
+CALL		0x1a30	1104	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadCurrent"	0
+ADJUST		0x1a34	1104	-1
+ADJUST		0x1a40	1105	1
+CALL		0x1a42	1105	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadCurrent"	0
+ADJUST		0x1a46	1105	-1
+ADJUST		0x1a60	1108	1
+ADJUST		0x1a64	1108	1
+ADJUST		0x1a68	1108	1
+CALL		0x1a6a	1108	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitSet"	0
+ADJUST		0x1a6e	1108	-3
+ADJUST		0x1a74	1110	1
+ADJUST		0x1a78	1110	1
+ADJUST		0x1a7c	1110	1
+CALL		0x1a7e	1110	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	0
+ADJUST		0x1a82	1110	-3
+ADJUST		0x1a94	1113	1
+ADJUST		0x1a98	1113	1
+ADJUST		0x1a9c	1113	1
+CALL		0x1a9e	1113	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitSet"	0
+ADJUST		0x1aa2	1113	-3
+ADJUST		0x1aa8	1115	1
+ADJUST		0x1aac	1115	1
+ADJUST		0x1ab0	1115	1
+CALL		0x1ab2	1115	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	0
+ADJUST		0x1ab6	1115	-3
+ADJUST		0x1aec	1120	1
+ADJUST		0x1af0	1120	1
+ADJUST		0x1af4	1120	1
+CALL		0x1af6	1120	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitClear"	0
+ADJUST		0x1afa	1120	-3
+ADJUST		0x1b00	1122	1
+ADJUST		0x1b04	1122	1
+ADJUST		0x1b08	1122	1
+CALL		0x1b0a	1122	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"BitSet"	0
+ADJUST		0x1b0e	1122	-3
+ADJUST		0x1b12	1125	-29
+ADJUST		0x1b14	1125	-1
+FN_END		0x1b1c	1125	
+FN_START	0x1b1e	1128	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"EraseSensorsCalibrationData"	"external"	
+ADJUST		0x1b20	1128	1
+ADJUST		0x1b22	1128	1
+ADJUST		0x1b24	1128	1
+ADJUST		0x1b28	1128	1
+ADJUST		0x1b2c	1128	1
+CALL		0x1b2e	1128	"memset.O"	"memset"	0
+ADJUST		0x1b32	1128	-5
+ADJUST		0x1b36	1129	1
+ADJUST		0x1b38	1129	1
+ADJUST		0x1b3a	1129	1
+ADJUST		0x1b3e	1129	1
+ADJUST		0x1b42	1129	1
+CALL		0x1b44	1129	"memset.O"	"memset"	0
+ADJUST		0x1b48	1129	-5
+FN_END		0x1b4a	1130	
+FN_START	0x1b4c	1134	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"FillSensorsCalibrationDataWithDefaultValues"	"external"	
+ADJUST		0x1b4c	1134	1
+ADJUST		0x1b50	1134	1
+ADJUST		0x1b5e	1134	4
+ADJUST		0x1b7e	1139	1
+ADJUST		0x1b80	1139	1
+ADJUST		0x1b82	1139	1
+ADJUST		0x1b86	1139	1
+CALL		0x1b8a	1139	"mul16.O"	"__mul16"	0
+ADJUST		0x1b90	1139	1
+ADJUST		0x1b96	1139	-1
+ADJUST		0x1b98	1139	-1
+ADJUST		0x1bae	1142	1
+ADJUST		0x1bb0	1142	1
+ADJUST		0x1bb2	1142	1
+ADJUST		0x1bb6	1142	1
+ADJUST		0x1bba	1142	1
+CALL		0x1bbc	1142	"memset.O"	"memset"	0
+ADJUST		0x1bc0	1142	-5
+ADJUST		0x1bc2	1143	-5
+ADJUST		0x1bc4	1143	-1
+FN_END		0x1bcc	1143	
+FN_START	0x1bce	1146	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsCalibrationMode"	"external"	
+FN_END		0x1bde	1147	
+FN_START	0x1be0	1150	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsRaceMode"	"external"	
+FN_END		0x1bf0	1151	
+FN_START	0x1bf2	1153	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalibrateSensors"	"external"	
+ADJUST		0x1bf2	1153	1
+ADJUST		0x1bf6	1153	1
+ADJUST		0x1c04	1153	21
+ADJUST		0x1c1e	1157	1
+ADJUST		0x1c24	1157	1
+ADJUST		0x1c2a	1157	1
+CALL		0x1c2c	1157	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadSensors"	0
+ADJUST		0x1c30	1157	-3
+ADJUST		0x1d60	1171	-22
+ADJUST		0x1d62	1171	-1
+FN_END		0x1d6a	1171	
+FN_START	0x1d6c	1173	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"PIDCalibration"	"external"	
+LABEL	0x1d6c	1173	0x1d6c
+ADJUST		0x1d6c	1173	1
+ADJUST		0x1d70	1173	1
+ADJUST		0x1d7e	1173	63
+ADJUST		0x1d80	1173	5
+ADJUST		0x1d8c	1179	1
+ADJUST		0x1d8e	1179	1
+ADJUST		0x1d90	1179	1
+ADJUST		0x1d94	1179	1
+CALL		0x1d98	1179	"mul16.O"	"__mul16"	0
+ADJUST		0x1d9c	1179	-1
+ADJUST		0x1d9e	1179	-1
+CALL		0x1dae	1191	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"Setup"	0
+CALL		0x1db2	1192	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"FillSensorsCalibrationDataWithDefaultValues"	0
+CALL		0x1db4	1195	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsCalibrationMode"	0
+ADJUST		0x1dbc	1196	1
+ADJUST		0x1dc0	1196	1
+ADJUST		0x1dc2	1196	1
+CALL		0x1dc4	1196	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x1dc8	1196	-3
+CALL		0x1dca	1197	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"EraseSensorsCalibrationData"	0
+ADJUST		0x1dce	1198	1
+ADJUST		0x1dd2	1198	1
+CALL		0x1dd4	1198	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalibrateSensors"	0
+ADJUST		0x1dd6	1198	-2
+CALL		0x1dda	1202	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"IsRaceMode"	0
+ADJUST		0x1de4	1203	1
+ADJUST		0x1dea	1203	1
+ADJUST		0x1df0	1203	1
+CALL		0x1df2	1203	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadSensors"	0
+ADJUST		0x1df6	1203	-3
+ADJUST		0x1e04	1204	1
+ADJUST		0x1e0a	1204	1
+CALL		0x1e0c	1204	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"CalculateError"	0
+ADJUST		0x1e10	1204	-2
+ADJUST		0x1e60	1210	1
+ADJUST		0x1e62	1210	1
+ADJUST		0x1e64	1210	1
+CALL		0x1e66	1210	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1e6a	1210	-3
+ADJUST		0x1e76	1211	1
+ADJUST		0x1e78	1211	1
+ADJUST		0x1e7c	1211	1
+CALL		0x1e7e	1211	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1e82	1211	-3
+ADJUST		0x1e8c	1213	1
+ADJUST		0x1e8e	1213	1
+ADJUST		0x1e92	1213	1
+CALL		0x1e94	1213	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1e98	1213	-3
+ADJUST		0x1ea4	1214	1
+ADJUST		0x1ea6	1214	1
+ADJUST		0x1eaa	1214	1
+CALL		0x1eac	1214	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1eb0	1214	-3
+ADJUST		0x1eba	1216	1
+ADJUST		0x1ebc	1216	1
+ADJUST		0x1ec0	1216	1
+CALL		0x1ec2	1216	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1ec6	1216	-3
+ADJUST		0x1ed2	1217	1
+ADJUST		0x1ed4	1217	1
+ADJUST		0x1ed8	1217	1
+CALL		0x1eda	1217	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ReadK"	0
+ADJUST		0x1ede	1217	-3
+ADJUST		0x1eec	1223	1
+ADJUST		0x1ef2	1223	1
+ADJUST		0x1ef8	1222	1
+ADJUST		0x1efe	1222	1
+ADJUST		0x1f00	1221	1
+CALL		0x1f02	1221	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GetKModifier"	0
+ADJUST		0x1f06	1221	-1
+ADJUST		0x1f08	1221	1
+CALL		0x1f0a	1223	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplyKModifiers"	0
+ADJUST		0x1f0e	1223	-5
+ADJUST		0x1f14	1228	1
+ADJUST		0x1f1a	1228	1
+ADJUST		0x1f20	1227	1
+ADJUST		0x1f26	1227	1
+ADJUST		0x1f2a	1226	1
+CALL		0x1f2c	1226	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GetKModifier"	0
+ADJUST		0x1f30	1226	-1
+ADJUST		0x1f32	1226	1
+CALL		0x1f34	1228	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplyKModifiers"	0
+ADJUST		0x1f38	1228	-5
+ADJUST		0x1f3e	1233	1
+ADJUST		0x1f44	1233	1
+ADJUST		0x1f4a	1232	1
+ADJUST		0x1f50	1232	1
+ADJUST		0x1f54	1231	1
+CALL		0x1f56	1231	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"GetKModifier"	0
+ADJUST		0x1f5a	1231	-1
+ADJUST		0x1f5c	1231	1
+CALL		0x1f5e	1233	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"ApplyKModifiers"	0
+ADJUST		0x1f62	1233	-5
+ADJUST		0x1f64	1236	1
+ADJUST		0x1f68	1236	1
+ADJUST		0x1f6c	1236	1
+ADJUST		0x1f6e	1236	1
+ADJUST		0x1f86	1236	1
+ADJUST		0x1f8a	1236	1
+ADJUST		0x1f8e	1236	1
+ADJUST		0x1f92	1236	1
+ADJUST		0x1f96	1236	1
+ADJUST		0x1f9a	1236	1
+ADJUST		0x1f9e	1236	1
+ADJUST		0x1fa0	1236	1
+ADJUST		0x1fa2	1236	1
+ADJUST		0x1fa6	1236	1
+ADJUST		0x1faa	1236	1
+ADJUST		0x1fac	1236	1
+ADJUST		0x1fc2	1236	1
+ADJUST		0x1fc6	1236	1
+ADJUST		0x1fca	1236	1
+ADJUST		0x1fce	1236	1
+ADJUST		0x1fe6	1236	1
+ADJUST		0x1fea	1236	1
+ADJUST		0x1fee	1236	1
+ADJUST		0x1ff2	1236	1
+CALL		0x1ff6	1236	"mul32.O"	"__mul32"	0
+CALL		0x1ffa	1236	"mul32.O"	"__mul32"	0
+CALL		0x1ffe	1236	"div32s.O"	"__div32s"	0
+CALL		0x2002	1236	"div32s.O"	"__div32s"	0
+CALL		0x2006	1236	"div32s.O"	"__div32s"	0
+ADJUST		0x200a	1236	-1
+ADJUST		0x200c	1236	-1
+ADJUST		0x2010	1236	-1
+ADJUST		0x2014	1236	-1
+ADJUST		0x219e	1286	1
+ADJUST		0x21a0	1286	1
+ADJUST		0x21a4	1286	1
+CALL		0x21a8	1286	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x21ac	1286	-3
+ADJUST		0x21b0	1287	1
+ADJUST		0x21b2	1287	1
+ADJUST		0x21b6	1287	1
+CALL		0x21ba	1287	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x21be	1287	-3
+ADJUST		0x21ca	1292	1
+ADJUST		0x21ce	1292	1
+ADJUST		0x21d0	1292	1
+CALL		0x21d2	1292	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"MotorSpeed"	0
+ADJUST		0x21d6	1292	-3
+ADJUST		0x21da	1294	-63
+ADJUST		0x21dc	1294	-6
+ADJUST		0x21de	1294	-1
+FN_END		0x21e6	1294	
+FN_START	0x21e8	1297	"C:\Documents and Settings\Administrator\MPLABXProjects\buggy.X\main.c"	"main"	"external"	
+BRANCH	0x21e8	1297	0x1d6c
+FN_END		0x21ea	1297	
+FILE		0x0	0	"div16s.O"
+FN_START	0x2204	66	"div16s.O"	"__div16s"	"visibility"	
+ADJUST		0x2204	66	5
+BRANCH	0x2208	70	0x220c
+FN_END		0x2208	70	
+FN_START	0x220a	76	"div16s.O"	"__mod16s"	"visibility"	
+ADJUST		0x220a	76	5
+LABEL	0x220c	79	0x220c
+ADJUST		0x2264	136	-1
+ADJUST		0x2266	138	-1
+ADJUST		0x226e	144	-5
+FN_END		0x227a	153	
+FILE		0x0	0	"div32s.O"
+FN_START	0x2294	80	"div32s.O"	"__div32s"	"visibility"	
+ADJUST		0x2294	80	7
+BRANCH	0x2298	84	0x229c
+FN_END		0x2298	84	
+FN_START	0x229a	90	"div32s.O"	"__mod32s"	"visibility"	
+ADJUST		0x229a	90	7
+LABEL	0x229c	93	0x229c
+ADJUST		0x2320	169	-1
+ADJUST		0x2322	171	-1
+ADJUST		0x232a	177	-9
+FN_END		0x2336	186	
+FILE		0x0	0	"mul16.O"
+FN_START	0x2338	39	"mul16.O"	"__mul16"	"visibility"	
+ADJUST		0x2338	39	4
+ADJUST		0x233a	43	1
+ADJUST		0x233e	45	1
+ADJUST		0x2392	96	-1
+ADJUST		0x2394	98	-1
+ADJUST		0x239c	104	-6
+FN_END		0x239e	107	
+FILE		0x0	0	"mul32.O"
+FN_START	0x23a0	46	"mul32.O"	"__mul32"	"visibility"	
+ADJUST		0x23a0	46	4
+ADJUST		0x23a2	50	1
+ADJUST		0x23a6	52	1
+ADJUST		0x2434	175	-1
+ADJUST		0x2436	177	-1
+ADJUST		0x243e	183	-8
+FN_END		0x2440	185	
+FILE		0x0	0	"div16u.O"
+FN_START	0x245a	69	"div16u.O"	"__div16u"	"visibility"	
+ADJUST		0x245a	69	5
+BRANCH	0x245e	73	0x2466
+FN_END		0x245e	73	
+FN_START	0x2460	79	"div16u.O"	"__mod16u"	"visibility"	
+ADJUST		0x2460	79	5
+FN_END		0x2462	81	
+LABEL	0x2466	89	0x2466
+ADJUST		0x24ac	145	-1
+ADJUST		0x24ae	147	-1
+ADJUST		0x24b6	153	-5
+FN_END		0x24b8	156	
+FILE		0x0	0	"div32u.O"
+FN_START	0x24d2	77	"div32u.O"	"__div32u"	"visibility"	
+ADJUST		0x24d2	77	7
+BRANCH	0x24d6	81	0x24de
+FN_END		0x24d6	81	
+FN_START	0x24d8	87	"div32u.O"	"__mod32u"	"visibility"	
+ADJUST		0x24d8	87	7
+LABEL	0x24de	96	0x24de
+ADJUST		0x2550	171	-1
+ADJUST		0x2552	173	-1
+ADJUST		0x255a	179	-9
+FN_END		0x255c	182	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x255e	81	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_do_cinit"	"external"	
+FN_END		0x25fa	184	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c"
+FN_START	0x25fc	49	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\write_B.c"	"Write_b_eep"	"external"	
+FN_END		0x265e	66	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c"
+FN_START	0x2660	68	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c"	"OpenADC"	"external"	
+FN_END		0x26c2	89	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5setdc.c"
+FN_START	0x26c4	15	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5setdc.c"	"SetDCPWM5"	"external"	
+FN_END		0x270e	27	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4setdc.c"
+FN_START	0x2710	17	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4setdc.c"	"SetDCPWM4"	"external"	
+FN_END		0x275a	29	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c"
+FN_START	0x275c	35	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\read_B.c"	"Read_b_eep"	"external"	
+FN_END		0x279c	45	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5open.c"
+FN_START	0x279e	15	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw5open.c"	"OpenPWM5"	"external"	
+FN_END		0x27de	31	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4open.c"
+FN_START	0x27e0	14	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\PWM\pw4open.c"	"OpenPWM4"	"external"	
+FN_END		0x2820	36	
+FILE		0x0	0	"d10ktcyx.O"
+FN_START	0x2822	19	"d10ktcyx.O"	"Delay10KTCYx"	"visibility"	
+ADJUST		0x2824	21	1
+FN_END		0x2856	50	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c"
+FN_START	0x2858	18	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c"	"OpenTimer0"	"external"	
+FN_END		0x288c	31	
+FILE		0x0	0	"memset.O"
+FN_START	0x288e	32	"memset.O"	"memset"	"visibility"	
+ADJUST		0x2890	32	1
+ADJUST		0x2896	32	1
+ADJUST		0x28a4	42	1
+ADJUST		0x28aa	42	1
+ADJUST		0x28b0	46	1
+ADJUST		0x28b6	46	1
+ADJUST		0x28ba	51	1
+FN_END		0x28c0	60	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c"
+FN_START	0x28c2	17	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t2open.c"	"OpenTimer2"	"external"	
+FN_END		0x28f4	31	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c"
+FN_START	0x28f6	16	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0write.c"	"WriteTimer0"	"external"	
+FN_END		0x2924	24	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0read.c"
+FN_START	0x2926	16	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0read.c"	"ReadTimer0"	"external"	
+FN_END		0x2954	24	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"
+FN_START	0x2956	30	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c"	"SetChanADC"	"external"	
+FN_END		0x2984	36	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"
+FN_START	0x29a6	34	"E:\3.46\pic18-lt\cxx-framework\src\extended\startup\c018i_e.c"	"_startup"	"external"	
+FN_END		0x29be	51	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c"
+FN_START	0x29c0	26	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c"	"ReadADC"	"external"	
+FN_END		0x29d6	27	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\extended\math\pow2x16.c"
+FN_START	0x29d8	5	"E:\3.46\pic18-lt\cxx-framework\src\extended\math\pow2x16.c"	"__pow2x16"	"external"	
+FN_END		0x29ec	16	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c"
+FN_START	0x29ee	28	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c"	"BusyADC"	"external"	
+FN_END		0x29f6	29	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0close.c"
+FN_START	0x29f8	17	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0close.c"	"CloseTimer0"	"external"	
+LABEL	0x29f8	17	0x29f8
+FN_END		0x29fc	19	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\busy_eep.c"
+FN_START	0x29fe	14	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\EEP\busy_eep.c"	"Busy_eep"	"external"	
+FN_END		0x2a02	15	
+FILE		0x0	0	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c"
+FN_START	0x2a04	24	"E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c"	"ConvertADC"	"external"	
+FN_END		0x2a06	25	
